@@ -1,0 +1,285 @@
+/* -------------------- Configs -------------------- */
+/* -------------------- Base -------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  background: #f3f7f6;
+  color: #ffffff;
+  font-family: 'Fira Sans', sans-serif;
+}
+.container {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+/* -------------------- Modules -------------------- */
+/*brahd and menu*/
+.logo-wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.logo-wrapper a > img {
+  margin: 0 auto;
+  width: 466px;
+}
+.container-fluid {
+  background: #1e4388;
+}
+.container-fluid li {
+  padding-right: 20px;
+}
+.container-fluid li:last-child {
+  padding-right: 0;
+}
+.navbar-default {
+  margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-collapse {
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.navbar-nav > li > .dropdown-menu {
+  background: #1e4388;
+  width: 500px;
+  color: #ffffff;
+  list-style-decoration: none;
+}
+.navbar-nav > li > .dropdown-menu .first-group,
+.navbar-nav > li > .dropdown-menu .second-group,
+.navbar-nav > li > .dropdown-menu .third-group {
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  list-style-type: none;
+  color: #ffffff;
+}
+.navbar-nav > li > .dropdown-menu .first-group a,
+.navbar-nav > li > .dropdown-menu .second-group a,
+.navbar-nav > li > .dropdown-menu .third-group a {
+  color: #ffffff;
+}
+.navbar-nav > li > .dropdown-menu .first-group li,
+.navbar-nav > li > .dropdown-menu .second-group li,
+.navbar-nav > li > .dropdown-menu .third-group li {
+  text-align: left;
+  color: #ffffff;
+}
+.navbar-nav > li > .dropdown-menu .first-group li a,
+.navbar-nav > li > .dropdown-menu .second-group li a,
+.navbar-nav > li > .dropdown-menu .third-group li a {
+  color: #ffffff;
+  line-height: 3rem;
+}
+.navbar-nav > li > .dropdown-menu .first-group li .btn-default,
+.navbar-nav > li > .dropdown-menu .second-group li .btn-default,
+.navbar-nav > li > .dropdown-menu .third-group li .btn-default {
+  background: #1e4388;
+  font-size: 1.5rem;
+  border-radius: 0;
+  margin-left: -20px;
+  margin-bottom: 5px;
+}
+/*main part with image*/
+.main-part {
+  margin: 0;
+  width: 100%;
+  background: url(../images/main-image.jpg);
+  border-radius: 0px;
+  border: none;
+}
+.main-part .btn-default {
+  background: none;
+  border-radius: 0;
+  color: #ffffff;
+  width: 100px;
+  height: 80px;
+  border: 2px solid #ffffff;
+  padding: 15px;
+  margin-top: 0;
+}
+.container .jumbotron {
+  border-radius: 0px;
+  border: none;
+}
+.container .jumbotron h1 {
+  font-size: 4rem;
+  margin-top: 0;
+}
+.container .jumbotron h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+.statistic {
+  background: #1e4388;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 30px 50px;
+}
+.statistic h2 {
+  font-size: 6rem;
+}
+/*your benefits*/
+.benefits {
+  color: #1e4388;
+  margin-top: 30px;
+}
+.benefits h2 {
+  margin-bottom: 40px;
+}
+.benefits h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.benefits p {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+/*carousel*/
+.carousel-control {
+  left: 40%;
+  color: #fff;
+  opacity: 0.5;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  margin-top: 10px;
+  font-size: 16px;
+  top: 48%;
+}
+.carousel-control.right {
+  right: 40%;
+}
+.glyphicon-chevron-right,
+.glyphicon-chevron-left {
+  width: 26px;
+  height: 26px;
+}
+.glyphicon-chevron-left,
+.glyphicon-chevron-right {
+  border: 2px solid #fff;
+  font-width: 100;
+  padding: 5px;
+  font-size: 16px;
+}
+.carousel-caption {
+  padding-top: 20px;
+}
+.carousel-caption h3 {
+  padding-top: 10%;
+}
+/*form*/
+.callback {
+  background: #115fd4;
+}
+.callback h3 {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.callback span {
+  display: inline-block;
+  padding-bottom: 40px;
+}
+.callback input {
+  border-radius: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid #115fd4;
+}
+.callback input:focus {
+  border: 2px solid #1e4388;
+}
+.callback .btn {
+  background: #ffffff;
+  border-radius: 0;
+  height: 20px;
+  color: #115fd4;
+  height: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.callback .btn:focus {
+  color: #1e4388;
+}
+/*footer*/
+footer {
+  background: #000;
+  font-size: 1rem;
+  padding: 40px 100px;
+}
+footer p {
+  margin-top: 20px;
+}
+/*------------------Media queries--------------------*/
+@media (max-width: 1200px) {
+  .container-fluid {
+    margin-bottom: 0;
+  }
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 10px;
+    margin-bottom: 0;
+  }
+  .nav > li > a {
+    padding: 10px 3px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .navbar-nav {
+    margin-left: 150px;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  .statistic {
+    padding: 10px;
+  }
+  .statistic h2 {
+    font-size: 4rem;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right {
+    margin-top: 10px;
+    font-size: 16px;
+    top: 26%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 0px;
+  }
+  .statistic {
+    padding: 10px;
+  }
+  .statistic h2 {
+    font-size: 3rem;
+  }
+  .carousel-inner {
+    display: none;
+  }
+  .form-inline {
+    margin-right: 10%;
+    matgin-left: 10%;
+  }
+  .form-inline input {
+    width: 30%;
+  }
+  .form-inline .btn-default {
+    width: 30%;
+    padding-left: 100px;
+  }
+}
